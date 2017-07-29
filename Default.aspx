@@ -68,4 +68,40 @@
         </div>
     </section>
 
+    <!-- ------------------------------------------- -->
+    <!--                  PORTFOLIO                  -->
+    <!-- ------------------------------------------- -->
+
+    <section class="no-padding" id="portfolio">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Work</h2>
+                <hr class="primary">
+            </div>
+        </div>        
+
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
 </asp:Content>
