@@ -9,10 +9,12 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Seattle Aerial Imagery</h1>
-                <hr>
-                <p>Cost effective, professional drone services</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <div class="header-content-innerinner">
+                    <h1 id="homeHeading">Seattle Aerial Imagery</h1>
+                    <hr>
+                    <p>Cost effective, professional drone services</p>
+                </div>
+                <a href="#services" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
     </header>
@@ -173,5 +175,16 @@
     <!-- ------------------------------------------- -->
     <!--                 END PAGE                    -->
     <!-- ------------------------------------------- -->
+
+    <!-- jQuery -->
+    <script src="Scripts/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="Scripts/scrollreveal.min.js"></script>
+    <script src="Scripts/jquery.magnific-popup.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="Scripts/creative.min.js"></script>
 
 </asp:Content>

@@ -208,7 +208,8 @@ header {
             font-weight: 300;
             color: rgba(255,255,255,.7);
             font-size: 16px;
-            margin-bottom: 50px
+            margin-bottom: 50px;
+            transform: translateY(150%)
         }
 
 @media (min-width:768px) {
@@ -240,8 +241,14 @@ header {
                     font-size: 18px;
                     max-width: 80%;
                     margin-left: auto;
-                    margin-right: auto
+                    margin-right: auto;
+                    transform: translateY(0%)
                 }
+
+            header .header-content .header-content-innerinner {
+                transform: translateY(-85%);
+            }
+
 }
 
 .section-heading {
