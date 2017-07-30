@@ -134,7 +134,7 @@
                     <p>Please send us a message using the form below</p>
                 </div>
 
-                <form id="contactform" action="//formspree.io/matthew@mistele.com" method="POST">
+                <form id="contactform" method="POST">
                     <div class="form-group col-lg-4 col-lg-offset-2">
                         <label>Name</label>
                         <input type="text" class="form-control" name="name">
@@ -156,12 +156,17 @@
                     <!-- Field is hidden to users, but not bots. Users will not fill out this form, but bots will. If this form is filled out, formspree will ignore the message -->
                     <input type="text" name="_gotcha" style="display:none" />
 
-                    <input type="hidden" name="_next" value="http://localhost:59432/#contact" />
+                    <!-- TODO: Redirect to contact section with message that tells you the message was sent sucessfully -->
+                    <input type="hidden" name="_next" value="http://seattleaerialimagery.com/#contact" />
 
                     <div class="form-group col-lg-12 col-lg-offset-2">
                         <button type="submit" value="Send" class="btn btn-default">Submit</button>
                     </div>
                 </form>
+                <script>
+                    var contactform = document.getElementById('contactform');
+                    contactform.setAttribute('action', '//formspree.io/' + 'matthew' + '@' + 'mistele' + '.' + 'com');
+                </script>
 
                 <script>
                     function clicked(e) {
