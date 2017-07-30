@@ -127,9 +127,9 @@
                     <h2 class="section-heading">Contact Us Today</h2>
                     <hr class="primary">
                     <div style="margin-bottom:-20px;">
-                        <p>We provide aerial photography and video to the greater Seattle area</p>
+                        <p>We provide aerial photography and video to the greater Seattle area.</p>
                     </div>
-                    <p>Send us a message using the form below</p>
+                    <p>Please send us a message using the form below</p>
                 </div>
 
                 <form id="contactform" action="//formspree.io/matthew@mistele.com" method="POST">
@@ -157,7 +157,6 @@
                     <input type="hidden" name="_next" value="http://localhost:59432/#contact" />
 
                     <div class="form-group col-lg-12 col-lg-offset-2">
-                        <input type="hidden" name="save" value="contact">
                         <button type="submit" value="Send" class="btn btn-default">Submit</button>
                     </div>
                 </form>
