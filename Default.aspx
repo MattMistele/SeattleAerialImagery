@@ -104,4 +104,75 @@
         </div>
     </section>
 
+        <!-- ------------------------------------------- -->
+    <!--               CALL TO ACTION                -->
+    <!-- ------------------------------------------- -->
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <!-- <a href="#" class="btn btn-default btn-xl wow tada">Contact Us Today</a> -->
+            </div>
+        </div>
+    </aside>
+
+    <!-- ------------------------------------------- -->
+    <!--                  CONTACT                    -->
+    <!-- ------------------------------------------- -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact Us Today</h2>
+                    <hr class="primary">
+                    <div style="margin-bottom:-20px;">
+                        <p>We provide aerial photography and video to the greater Seattle area</p>
+                    </div>
+                    <p>Send us a message using the form below</p>
+                </div>
+
+                <form id="contactform" action="//formspree.io/matthew@mistele.com" method="POST">
+                    <div class="form-group col-lg-4 col-lg-offset-2">
+                        <label>Name</label>
+                        <input type="text" class="form-control" name="name">
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label>Email Address</label>
+                        <input type="email" class="form-control" name="_replyto">
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="form-group col-lg-8 col-lg-offset-2">
+                        <label>Message</label>
+                        <textarea class="form-control" rows="6" name="message"></textarea>
+                    </div>
+
+                    <input type="hidden" name="_subject" value="Message from seattleaerialimagery.com" />
+
+                    <!-- Field is hidden to users, but not bots. Users will not fill out this form, but bots will. If this form is filled out, formspree will ignore the message -->
+                    <input type="text" name="_gotcha" style="display:none" />
+
+                    <input type="hidden" name="_next" value="http://localhost:59432/#contact" />
+
+                    <div class="form-group col-lg-12 col-lg-offset-2">
+                        <input type="hidden" name="save" value="contact">
+                        <button type="submit" value="Send" class="btn btn-default">Submit</button>
+                    </div>
+                </form>
+
+                <script>
+                    function clicked(e) {
+                        alert('Message Sent!');
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------------- -->
+    <!--                 END PAGE                    -->
+    <!-- ------------------------------------------- -->
+
 </asp:Content>
