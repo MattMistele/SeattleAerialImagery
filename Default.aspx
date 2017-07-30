@@ -8,16 +8,19 @@
 
     <header>
         <div class="header-content">
-            <div class="header-content-inner">
-                <div class="header-content-innerinner">
-                    <h1 id="homeHeading">Seattle Aerial Imagery</h1>
-                    <hr>
-                    <p>Cost effective, professional drone services</p>
+            <section id="home">
+                <div class="header-content-inner">
+                    <div class="header-content-innerinner">
+                        <h1 id="homeHeading">Seattle Aerial Imagery</h1>
+                        <hr>
+                        <p>Cost effective, professional drone services</p>
+                    </div>
+                    <a href="#services" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
                 </div>
-                <a href="#services" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
-            </div>
+            </section>
         </div>
     </header>
+
 
     <!-- ------------------------------------------- -->
     <!--                  SERVICES                   -->
@@ -36,31 +39,31 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-home wow bounceIn text-primary"></i>
-                        <h3>Real Estate</h3>
-                        <p class="text-muted">Exterior tours, listing images and video, construction, land development and land mapping.</p>
+                        <i class="fa fa-4x fa-camera wow bounceIn text-primary"></i>
+                        <h3>Stunning Aerial Photography</h3>
+                        <p class="text-muted">Showcase magazine-quality images of previously unseen angles</p>
                         <a href="#" class="btn btn-xl">Learn More</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-video-camera wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Businesses</h3>
+                        <h3>High Resolution Aerial Video</h3>
                         <p class="text-muted">Transform ordinary photography into breathtaking aerial 4K video footage.</p>
                         <a href="#" class="btn btn-xl">Learn More</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-picture-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Interactive Maps & Visualizations</h3>
-                        <p class="text-muted">Build maps with orthomosaics, volume measurements, and digital elevation models.</p>
+                        <i class="fa fa-4x fa-random wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Professional Editing/Production</h3>
+                        <p class="text-muted">We edit and post-process every photo and video to perfection using professional software and years of experiance.</p>
                         <a href="#" class="btn btn-xl">Learn More</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-cubes wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <i class="fa fa-4x fa-picture-o wow bounceIn text-primary" data-wow-delay=".3s"></i>
                         <h3>Realistic 3D Modeling & Printing</h3>
                         <p class="text-muted">Create and 3D print a realistic model of buildings, cars, boats, landmarks, and much more.</p>
                         <a href="http://localhost:3000/creatives/modeling" class="btn btn-xl">Learn More</a>
@@ -70,17 +73,66 @@
         </div>
     </section>
 
+
+    <!-- ------------------------------------------- -->
+    <!--                 INDUSTRIES                  -->
+    <!-- ------------------------------------------- -->
+
+    <section id="industries" style="background-color: #eaeaea">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Industries</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-home wow bounceIn text-primary"></i>
+                        <h3>Real Estate</h3>
+                        <p class="text-muted">Exterior tours, listing images and video, construction, land development and land mapping.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-building wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Businesses</h3>
+                        <p class="text-muted">Highlight your office facilities or plant with aerial photography.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-calendar wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Events and Occasions</h3>
+                        <p class="text-muted">Capture images and footage of sporting events, weddings, family events or special moments.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cog wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Custom</h3>
+                        <p class="text-muted">Have something else in mind? Contact us using the form below.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- ------------------------------------------- -->
     <!--                  PORTFOLIO                  -->
     <!-- ------------------------------------------- -->
 
-    <section class="no-padding" id="portfolio">
+    <section class="no-padding" id="portfolio" style="background-color: #eaeaea">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Our Work</h2>
+                <h2 class="section-heading">Samples</h2>
                 <hr class="primary">
             </div>
-        </div>        
+        </div>
 
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
@@ -106,7 +158,7 @@
         </div>
     </section>
 
-        <!-- ------------------------------------------- -->
+    <!-- ------------------------------------------- -->
     <!--               CALL TO ACTION                -->
     <!-- ------------------------------------------- -->
 
