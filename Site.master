@@ -96,14 +96,14 @@
     <!--                   FOOTER                    -->
     <!-- ------------------------------------------- -->
 
-    <!-- <div class="container body-content">
+    <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
+            <!-- <footer>
                 <p>&copy; <%: DateTime.Now.Year %> Seattle Aerial Imagery</p>
-            </footer>
-        </div>  -->
+            </footer> -->
+        </div>
 
 </body>
 </html>

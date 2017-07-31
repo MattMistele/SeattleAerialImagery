@@ -35,7 +35,11 @@
   font-size: 4em;
 }
 .fa-5x {
-  font-size: 5em;
+  font-size: 11em;
+}
+
+.fa-10x {
+    font-size: 10em;
 }
 .fa-fw {
   width: 1.28571429em;

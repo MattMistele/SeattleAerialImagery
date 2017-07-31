@@ -343,6 +343,10 @@ header {
     color: #F05F40
 }
 
+.text-check {
+    color: #88C426
+}
+
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0
@@ -350,15 +354,15 @@ header {
 
 .btn-default {
     color: #222;
-    background-color: #fff;
-    border-color: #fff;
+    background-color: #88C426;
+    border-color: #88C426;
     transition: all .35s
 }
 
     .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default {
         color: #222;
-        background-color: #f2f2f2;
-        border-color: #ededed
+        background-color: #7ab120;
+        border-color: #7ab120
     }
 
     .btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled].active, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
