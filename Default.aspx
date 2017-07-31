@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="Seattle Aerial Imagery" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- Theme CSS -->
+    <link href="/Content/creative.min.css" rel="stylesheet">
+
 
     <!-- ------------------------------------------- -->
     <!--                   HEADER                    -->

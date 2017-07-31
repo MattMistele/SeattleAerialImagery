@@ -25,8 +25,7 @@
     <!-- Plugin CSS -->
     <link href="~/Content/magnific-popup.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="~/Content/creative.min.css" rel="stylesheet">
+
 
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
@@ -75,9 +74,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#industries">Industries</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>

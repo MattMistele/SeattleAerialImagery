@@ -2,18 +2,23 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <header>
-        <div class="header-content">
-            <div class="jumbotron text-xs-center" style="text-align: center">
+    <!-- Theme CSS -->
+    <link href="/Content/creative.min.css" rel="stylesheet">
+
+    <header style="background-image:url(/img/headerMSG.jpg)">
+        <div class="header-content" style="transform:translateY(-50%)" >
+
+            <div class="jumbotron text-xs-center" style="text-align:center;background-color=rgba(0, 0, 0, 0)">
                 <i class="fa fa-5x fa-check wow bounceIn" style="color: #88C426"></i>
                 <h1 class="display-3">Message Sent!</h1>
-                <p class="lead"><strong>Please check your email</strong> for further instructions on how to complete your account setup.</p>
+                <p class="lead">We'll be sure to get back to you as soon as possible.</p>
 
                 <hr>
 
                 <p class="lead">
-                    <a rel="nofollow" class="btn btn-primary btn-xl" href="https://seattleaerialimagery.com/" role="button">Back to Website</a>
+                    <a rel="nofollow" class="btn btn-primary btn-xl" href="https://seattleaerialimagery.com/" role="button" style="background-color:rgb(51, 51, 51) ">Back to Website</a>
                 </p>
+
             </div>
         </div>
     </header>
