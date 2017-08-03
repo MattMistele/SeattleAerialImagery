@@ -94,17 +94,13 @@
     </nav>
 
     <!-- ------------------------------------------- -->
-    <!--                   FOOTER                    -->
+    <!--                BODY CONTENT                 -->
     <!-- ------------------------------------------- -->
 
     <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <hr />
-            <!-- <footer>
-                <p>&copy; <%: DateTime.Now.Year %> Seattle Aerial Imagery</p>
-            </footer> -->
-        </div>
+        <!-- This 'runs' all of the body page code -->
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    </div>
 
 </body>
 </html>

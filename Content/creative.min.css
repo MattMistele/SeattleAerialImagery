@@ -351,15 +351,15 @@ header {
 
 .btn-default {
     color: #222;
-    background-color: #88C426;
-    border-color: #88C426;
+    background-color: #F05F40;
+    border-color: #F05F40;
     transition: all .35s
 }
 
     .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default {
         color: #222;
-        background-color: #7ab120;
-        border-color: #7ab120
+        background-color: #ee4b28;
+        border-color: #ed431f
     }
 
     .btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled].active, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
@@ -368,7 +368,7 @@ header {
     }
 
     .btn-default .badge {
-        color: #fff;
+        color: #F05F40;
         background-color: #222
     }
 

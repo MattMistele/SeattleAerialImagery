@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="messagesent.aspx.cs" Inherits="About" %>
+﻿<%@ Page Title="Message Sent!" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="messagesent.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -55,7 +55,7 @@
                 <hr>
 
                 <p class="lead">
-                    <a rel="nofollow" class="btn btn-primary btn-xl" href="http://localhost:55674/" role="button" style="background-color:rgb(51, 51, 51) ">Back to Website</a>
+                    <a rel="nofollow" class="btn btn-primary btn-xl" href="http://seattleaerialimagery.com/" role="button" style="background-color:rgb(51, 51, 51) ">Back to Website</a>
                 </p>
 
             </div>
