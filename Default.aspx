@@ -212,7 +212,7 @@
                     <input type="text" name="_gotcha" style="display:none" />
 
                     <!-- TODO: Redirect to contact section with message that tells you the message was sent sucessfully -->
-                    <input type="hidden" name="_next" value="http://seattleaerialimagery.com/#contact" />
+                    <input type="hidden" name="_next" value="http://seattleaerialimagery.com/messagesent" />
 
                     <div class="form-group col-lg-12 col-lg-offset-2">
                         <button type="submit" value="Send" class="btn btn-default">Submit</button>
