@@ -45,31 +45,27 @@
                         <i class="fa fa-4x fa-camera wow bounceIn text-primary"></i>
                         <h3>Stunning Aerial Photography</h3>
                         <p class="text-muted">Showcase magazine-quality images of previously unseen angles</p>
-                        <a href="#" class="btn btn-xl">Learn More</a>
-                    </div>
+                        </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-video-camera wow bounceIn text-primary" data-wow-delay=".1s"></i>
                         <h3>High Resolution Aerial Video</h3>
                         <p class="text-muted">Transform ordinary photography into breathtaking aerial 4K video footage.</p>
-                        <a href="#" class="btn btn-xl">Learn More</a>
-                    </div>
+                        </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-random wow bounceIn text-primary" data-wow-delay=".2s"></i>
                         <h3>Professional Editing/Production</h3>
                         <p class="text-muted">We edit and post-process every photo and video to perfection using professional software and years of experiance.</p>
-                        <a href="#" class="btn btn-xl">Learn More</a>
-                    </div>
+                        </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-cubes wow bounceIn text-primary" data-wow-delay=".3s"></i>
                         <h3>Realistic 3D Modeling & Printing</h3>
                         <p class="text-muted">Create and 3D print a realistic model of buildings, cars, boats, landmarks, and much more.</p>
-                        <a href="http://localhost:3000/creatives/modeling" class="btn btn-xl">Learn More</a>
                     </div>
                 </div>
             </div>
