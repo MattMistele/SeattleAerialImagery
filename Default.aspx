@@ -131,7 +131,7 @@
 
     <section class="no-padding" id="portfolio" style="background-color: #eaeaea">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center no-padding">
                 <h2 class="section-heading">Samples</h2>
                 <hr class="primary">
             </div>
@@ -214,7 +214,7 @@
                     <!-- TODO: Redirect to contact section with message that tells you the message was sent sucessfully -->
                     <input type="hidden" name="_next" value="http://seattleaerialimagery.com/messagesent" />
 
-                    <div class="form-group col-lg-12 col-lg-offset-2">
+                    <div class="form-group col-lg-10 col-lg-offset-2">
                         <button type="submit" value="Send" class="btn btn-default">Submit</button>
                     </div>
                 </form>
