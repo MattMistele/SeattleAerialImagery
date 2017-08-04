@@ -1,6 +1,24 @@
 ﻿<%@ Page Title="Seattle Aerial Imagery" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    
+    <!-- ------------------------------------------- -->
+    <!--    IMPORTANT INFORMATION ABOUT PUBLISHING   -->
+    <!-- ------------------------------------------- -->
+
+    <!--    Make sure these settings are set in the web.config file: https://stackoverflow.com/questions/24638267/deploying-asp-net-mvc4-app-to-godaddy-compiler-issue
+
+            Every time you publish, important settings get reset in the Godaddy hosting service.
+            These settings MUST be correct otherwise the website will not load.
+
+            So every time you publish this website to Godaddy you must:
+                1) Go to GoDaddy.com and click "manage" plex webhosting: https://account.godaddy.com/products/#/
+                2) Scroll down to seattleaerialimagery.com and click "show more"
+                3) Click on ASP.NET settings
+                4) Change the default webpage language from vb to c#
+                5) Change the CAS trust level from "medium" to "full"                   -->
+
+
     <!-- Theme CSS -->
     <link href="/Content/creative.min.css" rel="stylesheet">
 
